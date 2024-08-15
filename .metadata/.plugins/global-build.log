@@ -1,0 +1,383 @@
+15:31:39 **** Rebuild of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+15:33:29 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'addStudent':
+..\project.c:46:16: error: incompatible types when assigning to type 'struct student' from type 'struct student *'
+   newnode->data=ptr;
+                ^
+15:34:13 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+15:46:12 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'addStudent':
+..\project.c:61:4: error: 'else' without a previous 'if'
+    else
+    ^~~~
+15:47:47 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+15:49:43 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+15:51:08 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+15:55:48 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+15:56:48 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+15:57:45 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+16:00:28 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+16:04:21 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:05:02 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'main':
+..\project.c:98:17: warning: unused variable 'new_student' [-Wunused-variable]
+  struct student new_student;
+                 ^~~~~~~~~~~
+gcc -o project.exe project.o 
+16:05:18 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:07:22 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:07:38 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:08:19 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:08:29 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:11:59 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:23:30 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'searchStudentByID':
+..\project.c:34:26: error: 'data' undeclared (first use in this function)
+    printf("name: %s \n ",data.name);
+                          ^~~~
+..\project.c:34:26: note: each undeclared identifier is reported only once for each function it appears in
+16:23:59 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'searchStudentByID':
+..\project.c:34:26: error: 'data' undeclared (first use in this function)
+    printf("name: %s \n ",data->name);
+                          ^~~~
+..\project.c:34:26: note: each undeclared identifier is reported only once for each function it appears in
+16:24:40 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'searchStudentByID':
+..\project.c:34:39: error: invalid type argument of '->' (have 'struct student')
+    printf("name: %s \n ",current->data->name);
+                                       ^~
+..\project.c:35:37: error: invalid type argument of '->' (have 'struct student')
+    printf(" id: %d \n",current->data->id);
+                                     ^~
+..\project.c:36:38: error: invalid type argument of '->' (have 'struct student')
+    printf(" age: %d \n",current->data->age);
+                                      ^~
+..\project.c:37:38: error: invalid type argument of '->' (have 'struct student')
+    printf(" gpa: %f \n",current->data->gpa);
+                                      ^~
+16:25:07 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:25:50 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:26:52 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:27:23 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:29:23 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:33:38 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:45:47 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:53:51 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+16:55:00 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:56:11 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+16:57:51 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+16:59:13 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+17:40:07 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+17:42:12 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+17:45:06 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'calculateAverageGPA':
+..\project.c:159:22: error: 'n' undeclared (first use in this function)
+  averageGPA=totalGPA/n;
+                      ^
+..\project.c:159:22: note: each undeclared identifier is reported only once for each function it appears in
+17:45:21 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+18:00:22 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+18:15:22 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'deleteStudent':
+..\project.c:189:15: warning: unused variable 'prev' [-Wunused-variable]
+  struct node *prev = NULL;
+               ^~~~
+gcc -o project.exe project.o 
+18:24:03 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'deleteStudent':
+..\project.c:202:16: error: invalid operands to binary == (have 'struct student' and 'int')
+  if(head->data == id)   //check the first student
+     ~~~~~~~~~~ ^~
+..\project.c:189:15: warning: variable 'prev' set but not used [-Wunused-but-set-variable]
+  struct node *prev = NULL;
+               ^~~~
+18:24:44 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'deleteStudent':
+..\project.c:189:15: warning: variable 'prev' set but not used [-Wunused-but-set-variable]
+  struct node *prev = NULL;
+               ^~~~
+gcc -o project.exe project.o 
+18:26:42 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'deleteStudent':
+..\project.c:189:15: warning: variable 'prev' set but not used [-Wunused-but-set-variable]
+  struct node *prev = NULL;
+               ^~~~
+gcc -o project.exe project.o 
+18:28:20 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+18:28:57 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+19:04:32 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'deleteStudent':
+..\project.c:33:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:81:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:107:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:125:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:161:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:181:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:203:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:221:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:243:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\project.c:27:6: error: old-style parameter declarations in prototyped function definition
+ void deleteStudent(int id)
+      ^~~~~~~~~~~~~
+..\project.c:281:1: error: expected '{' at end of input
+ }
+ ^
+19:05:02 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+..\project.c: In function 'main':
+..\project.c:59:21: error: redeclaration of 'id' with no linkage
+                 int id;
+                     ^~
+..\project.c:54:21: note: previous declaration of 'id' was here
+                 int id;
+                     ^~
+..\project.c:64:21: error: redeclaration of 'id' with no linkage
+                 int id;
+                     ^~
+..\project.c:59:21: note: previous declaration of 'id' was here
+                 int id;
+                     ^~
+19:06:10 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+19:11:49 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:12:03 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+19:15:33 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+19:24:58 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+19:36:29 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:36:34 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -o project.exe project.o 
+19:39:01 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file project.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:39:06 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+19:41:48 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+19:42:31 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+Info: Nothing to build for project
+19:51:37 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+19:56:19 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+Info: Nothing to build for project
+Info: Nothing to build for project
+Info: Nothing to build for project
+Info: Nothing to build for project
+20:36:49 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+20:41:35 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
+20:42:41 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+20:43:22 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+21:35:14 **** Incremental Build of configuration Debug for project project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o project.o "..\\project.c" 
+gcc -o project.exe project.o 
+Info: Nothing to build for project
